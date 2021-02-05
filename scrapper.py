@@ -6,7 +6,7 @@ import time
 
 URL = 'https://www.amazon.com/Sony-Mirrorless-Digital-28-70mm-Accessory/dp/B07KMWQBMY/ref=sr_1_1_sspa?crid=3S6QTMO7NOBD7&dchild=1&keywords=sony+a7iii&qid=1612550774&sprefix=sony+%2Caps%2C189&sr=8-1-spons&psc=1&smid=AXCB29L39I26U&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzN1NTOVZGWEMzWUdJJmVuY3J5cHRlZElkPUEwNTI4MDA0M1ZIRTQzNFdKMU1VTSZlbmNyeXB0ZWRBZElkPUEwNzQwNTI2M01VTEdXQU5ROExYWiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU='
 
-headers = {"User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36'}
+headers = {"User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36'}  # you may need to change your agent
 
 def check_price():
     page = requests.get(URL, headers=headers)
