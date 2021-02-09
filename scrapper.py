@@ -33,7 +33,7 @@ def check_price():
 
 
 def send_mail():
-    server = smtplib.STMP('stmp.gmail.com', 587)
+    server = smtplib.SMTP('stmp.gmail.com', 587)
     server.ehlo()
     server.starttls()
     server.ehlo()
